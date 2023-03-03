@@ -1,12 +1,13 @@
 package com.academiadigital.academiaDigital.service;
 
 import com.academiadigital.academiaDigital.model.Matricula;
+import com.academiadigital.academiaDigital.model.form.MatriculaForm;
 
 import java.util.List;
 
-public interface MatriculaService {
+public interface IMatriculaService {
 
-  Matricula create(MatriculaForm form);
+  Matricula create(MatriculaForm matriculaForm);
 
   Matricula get(Long id);
 

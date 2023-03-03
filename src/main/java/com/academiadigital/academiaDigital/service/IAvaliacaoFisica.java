@@ -1,6 +1,8 @@
 package com.academiadigital.academiaDigital.service;
 
 import com.academiadigital.academiaDigital.model.AvaliacaoFisica;
+import com.academiadigital.academiaDigital.model.form.AvaliacaoFisicaForm;
+import com.academiadigital.academiaDigital.model.form.AvaliacaoFisicaUpdateForm;
 
 import java.util.List;
 
