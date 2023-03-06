@@ -3,7 +3,6 @@ package com.academiadigital.academiaDigital.service;
 import com.academiadigital.academiaDigital.model.Aluno;
 import com.academiadigital.academiaDigital.model.form.AlunoForm;
 import com.academiadigital.academiaDigital.model.form.AlunoUpdateForm;
-import jdk.dynalink.linker.LinkerServices;
 
 import java.util.List;
 
@@ -17,5 +16,5 @@ public interface IAlunoService {
 
   Aluno update(Long id, AlunoUpdateForm formUpdate);
 
-  void delete (Long id);
+  void delete(Long id);
 }

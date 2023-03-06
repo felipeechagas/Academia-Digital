@@ -6,5 +6,5 @@ public class AlunoUpdateForm {
 
   private String nome;
   private String bairro;
-  private LocalDate dataNascimento;
+  private int idade;
 }
